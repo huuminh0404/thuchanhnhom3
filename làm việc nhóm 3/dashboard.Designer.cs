@@ -44,9 +44,9 @@
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.uc_picture1 = new làm_việc_nhóm_3.all_user_control.uc_picture();
             this.uc_addroom1 = new làm_việc_nhóm_3.all_user_control.uc_addroom();
             this.uc_register1 = new làm_việc_nhóm_3.all_user_control.uc_register();
+            this.uc_picture1 = new làm_việc_nhóm_3.all_user_control.uc_picture();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -110,7 +110,7 @@
             this.btncheckout.FillColor = System.Drawing.Color.LightPink;
             this.btncheckout.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.btncheckout.ForeColor = System.Drawing.Color.White;
-            this.btncheckout.Location = new System.Drawing.Point(56, 3);
+            this.btncheckout.Location = new System.Drawing.Point(8, 3);
             this.btncheckout.Name = "btncheckout";
             this.btncheckout.Size = new System.Drawing.Size(251, 120);
             this.btncheckout.TabIndex = 2;
@@ -202,7 +202,7 @@
             this.btnaddroom.FillColor = System.Drawing.Color.LightPink;
             this.btnaddroom.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.btnaddroom.ForeColor = System.Drawing.Color.White;
-            this.btnaddroom.Location = new System.Drawing.Point(334, 3);
+            this.btnaddroom.Location = new System.Drawing.Point(316, 3);
             this.btnaddroom.Name = "btnaddroom";
             this.btnaddroom.Size = new System.Drawing.Size(246, 120);
             this.btnaddroom.TabIndex = 0;
@@ -212,12 +212,12 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.uc_picture1);
             this.panel2.Controls.Add(this.uc_register1);
             this.panel2.Controls.Add(this.uc_addroom1);
-            this.panel2.Controls.Add(this.uc_picture1);
-            this.panel2.Location = new System.Drawing.Point(23, 148);
+            this.panel2.Location = new System.Drawing.Point(199, 156);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1882, 852);
+            this.panel2.Size = new System.Drawing.Size(1516, 852);
             this.panel2.TabIndex = 3;
             // 
             // panelmoving
@@ -240,29 +240,28 @@
             // 
             this.guna2Elipse3.TargetControl = this;
             // 
-            // uc_picture1
-            // 
-            this.uc_picture1.BackColor = System.Drawing.Color.White;
-            this.uc_picture1.Location = new System.Drawing.Point(-1, 7);
-            this.uc_picture1.Name = "uc_picture1";
-            this.uc_picture1.Size = new System.Drawing.Size(1882, 852);
-            this.uc_picture1.TabIndex = 0;
-            // 
             // uc_addroom1
             // 
             this.uc_addroom1.BackColor = System.Drawing.Color.White;
-            this.uc_addroom1.Location = new System.Drawing.Point(3, 7);
+            this.uc_addroom1.Location = new System.Drawing.Point(-1, 3);
             this.uc_addroom1.Name = "uc_addroom1";
-            this.uc_addroom1.Size = new System.Drawing.Size(1882, 852);
-            this.uc_addroom1.TabIndex = 1;
+            this.uc_addroom1.Size = new System.Drawing.Size(1516, 852);
+            this.uc_addroom1.TabIndex = 0;
             // 
             // uc_register1
             // 
             this.uc_register1.BackColor = System.Drawing.Color.White;
-            this.uc_register1.Location = new System.Drawing.Point(3, 7);
+            this.uc_register1.Location = new System.Drawing.Point(-1, -1);
             this.uc_register1.Name = "uc_register1";
-            this.uc_register1.Size = new System.Drawing.Size(1882, 852);
-            this.uc_register1.TabIndex = 2;
+            this.uc_register1.Size = new System.Drawing.Size(1516, 852);
+            this.uc_register1.TabIndex = 1;
+            // 
+            // uc_picture1
+            // 
+            this.uc_picture1.Location = new System.Drawing.Point(-1, -1);
+            this.uc_picture1.Name = "uc_picture1";
+            this.uc_picture1.Size = new System.Drawing.Size(1516, 852);
+            this.uc_picture1.TabIndex = 2;
             // 
             // dashboard
             // 

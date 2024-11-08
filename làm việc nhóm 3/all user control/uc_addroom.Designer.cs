@@ -243,7 +243,7 @@
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.label1);
             this.Name = "uc_addroom";
-            this.Size = new System.Drawing.Size(1882, 852);
+            this.Size = new System.Drawing.Size(1516, 852);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

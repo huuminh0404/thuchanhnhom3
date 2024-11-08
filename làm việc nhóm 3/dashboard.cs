@@ -31,7 +31,7 @@ namespace làm_việc_nhóm_3
         }
         private void btncheckout_Click(object sender, EventArgs e)
         {
-            panelmoving.Left = btncheckout.Left+ 50;
+            panelmoving.Left = btncheckout.Left + 50;
             uc_picture1.Visible = true;
             uc_picture1.BringToFront();
         }
@@ -41,7 +41,7 @@ namespace làm_việc_nhóm_3
             // hiển thị control
             uc_addroom1.Visible = true;
             // ưu tiên thứ tự sẽ được đẩy lên trước 
-            uc_register1.BringToFront();
+            uc_addroom1.BringToFront();
         }
 
         private void btncr_Click(object sender, EventArgs e)

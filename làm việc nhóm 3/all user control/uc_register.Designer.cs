@@ -97,7 +97,7 @@
             this.txt_name.PasswordChar = '\0';
             this.txt_name.PlaceholderText = "Nhập Họ Và Tên";
             this.txt_name.SelectedText = "";
-            this.txt_name.Size = new System.Drawing.Size(504, 72);
+            this.txt_name.Size = new System.Drawing.Size(465, 72);
             this.txt_name.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txt_name.TabIndex = 2;
             // 
@@ -154,7 +154,7 @@
             this.txt_na.PasswordChar = '\0';
             this.txt_na.PlaceholderText = "Nhập Quốc Tịch";
             this.txt_na.SelectedText = "";
-            this.txt_na.Size = new System.Drawing.Size(504, 72);
+            this.txt_na.Size = new System.Drawing.Size(465, 72);
             this.txt_na.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txt_na.TabIndex = 6;
             // 
@@ -176,7 +176,7 @@
             this.txt_phone.PasswordChar = '\0';
             this.txt_phone.PlaceholderText = "Nhập Số Điện Thoại";
             this.txt_phone.SelectedText = "";
-            this.txt_phone.Size = new System.Drawing.Size(504, 72);
+            this.txt_phone.Size = new System.Drawing.Size(465, 72);
             this.txt_phone.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txt_phone.TabIndex = 7;
             // 
@@ -205,7 +205,7 @@
             "Nữ"});
             this.cb_sex.Location = new System.Drawing.Point(4, 449);
             this.cb_sex.Name = "cb_sex";
-            this.cb_sex.Size = new System.Drawing.Size(504, 36);
+            this.cb_sex.Size = new System.Drawing.Size(465, 36);
             this.cb_sex.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.cb_sex.TabIndex = 9;
             // 
@@ -230,7 +230,7 @@
             this.dtp_date.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dtp_date.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtp_date.Name = "dtp_date";
-            this.dtp_date.Size = new System.Drawing.Size(504, 74);
+            this.dtp_date.Size = new System.Drawing.Size(465, 74);
             this.dtp_date.TabIndex = 11;
             this.dtp_date.Value = new System.DateTime(2024, 11, 8, 16, 35, 28, 228);
             // 
@@ -246,13 +246,13 @@
             this.txt_add.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_add.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_add.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_add.Location = new System.Drawing.Point(600, 228);
+            this.txt_add.Location = new System.Drawing.Point(536, 228);
             this.txt_add.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.txt_add.Name = "txt_add";
             this.txt_add.PasswordChar = '\0';
             this.txt_add.PlaceholderText = "Nhập Địa Chỉ";
             this.txt_add.SelectedText = "";
-            this.txt_add.Size = new System.Drawing.Size(504, 72);
+            this.txt_add.Size = new System.Drawing.Size(465, 72);
             this.txt_add.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txt_add.TabIndex = 15;
             // 
@@ -260,7 +260,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(595, 194);
+            this.label7.Location = new System.Drawing.Point(531, 194);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(74, 28);
             this.label7.TabIndex = 14;
@@ -278,13 +278,13 @@
             this.txt_id.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_id.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_id.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_id.Location = new System.Drawing.Point(600, 116);
+            this.txt_id.Location = new System.Drawing.Point(536, 116);
             this.txt_id.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.txt_id.Name = "txt_id";
             this.txt_id.PasswordChar = '\0';
             this.txt_id.PlaceholderText = "Nhập CCCD";
             this.txt_id.SelectedText = "";
-            this.txt_id.Size = new System.Drawing.Size(504, 72);
+            this.txt_id.Size = new System.Drawing.Size(465, 72);
             this.txt_id.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txt_id.TabIndex = 13;
             // 
@@ -292,7 +292,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(599, 82);
+            this.label8.Location = new System.Drawing.Point(531, 82);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(60, 28);
             this.label8.TabIndex = 12;
@@ -305,11 +305,11 @@
             this.dtp_checkin.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtp_checkin.ForeColor = System.Drawing.Color.Black;
             this.dtp_checkin.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.dtp_checkin.Location = new System.Drawing.Point(600, 338);
+            this.dtp_checkin.Location = new System.Drawing.Point(536, 338);
             this.dtp_checkin.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.dtp_checkin.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.dtp_checkin.Name = "dtp_checkin";
-            this.dtp_checkin.Size = new System.Drawing.Size(504, 74);
+            this.dtp_checkin.Size = new System.Drawing.Size(465, 72);
             this.dtp_checkin.TabIndex = 17;
             this.dtp_checkin.Value = new System.DateTime(2024, 11, 8, 16, 35, 28, 228);
             // 
@@ -317,7 +317,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(595, 306);
+            this.label9.Location = new System.Drawing.Point(531, 306);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(85, 28);
             this.label9.TabIndex = 16;
@@ -337,9 +337,9 @@
             "Phòng Đơn",
             "Phòng Đôi",
             "Phòng Ba"});
-            this.cb_bed.Location = new System.Drawing.Point(1183, 113);
+            this.cb_bed.Location = new System.Drawing.Point(1054, 113);
             this.cb_bed.Name = "cb_bed";
-            this.cb_bed.Size = new System.Drawing.Size(504, 36);
+            this.cb_bed.Size = new System.Drawing.Size(465, 36);
             this.cb_bed.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.cb_bed.TabIndex = 19;
             // 
@@ -347,7 +347,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(1178, 82);
+            this.label10.Location = new System.Drawing.Point(1049, 82);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(119, 28);
             this.label10.TabIndex = 18;
@@ -367,9 +367,9 @@
             "Bình Thường",
             "KING",
             "QUEEN"});
-            this.cb_room.Location = new System.Drawing.Point(1179, 225);
+            this.cb_room.Location = new System.Drawing.Point(1054, 216);
             this.cb_room.Name = "cb_room";
-            this.cb_room.Size = new System.Drawing.Size(504, 36);
+            this.cb_room.Size = new System.Drawing.Size(465, 36);
             this.cb_room.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.cb_room.TabIndex = 21;
             // 
@@ -377,7 +377,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(1178, 194);
+            this.label11.Location = new System.Drawing.Point(1049, 185);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(110, 28);
             this.label11.TabIndex = 20;
@@ -393,9 +393,9 @@
             this.cb_nroom.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.cb_nroom.ForeColor = System.Drawing.Color.Black;
             this.cb_nroom.ItemHeight = 30;
-            this.cb_nroom.Location = new System.Drawing.Point(1179, 337);
+            this.cb_nroom.Location = new System.Drawing.Point(1054, 324);
             this.cb_nroom.Name = "cb_nroom";
-            this.cb_nroom.Size = new System.Drawing.Size(504, 36);
+            this.cb_nroom.Size = new System.Drawing.Size(465, 36);
             this.cb_nroom.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.cb_nroom.TabIndex = 23;
             // 
@@ -403,7 +403,7 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(1178, 306);
+            this.label12.Location = new System.Drawing.Point(1049, 293);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(97, 28);
             this.label12.TabIndex = 22;
@@ -421,14 +421,14 @@
             this.txt_price.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txt_price.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_price.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txt_price.Location = new System.Drawing.Point(1183, 418);
+            this.txt_price.Location = new System.Drawing.Point(1054, 413);
             this.txt_price.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.txt_price.Name = "txt_price";
             this.txt_price.PasswordChar = '\0';
             this.txt_price.PlaceholderText = "";
             this.txt_price.ReadOnly = true;
             this.txt_price.SelectedText = "";
-            this.txt_price.Size = new System.Drawing.Size(504, 72);
+            this.txt_price.Size = new System.Drawing.Size(458, 72);
             this.txt_price.Style = Guna.UI2.WinForms.Enums.TextBoxStyle.Material;
             this.txt_price.TabIndex = 25;
             // 
@@ -436,7 +436,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(1178, 384);
+            this.label13.Location = new System.Drawing.Point(1049, 382);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(41, 28);
             this.label13.TabIndex = 24;
@@ -456,7 +456,7 @@
             this.btnaddpeople.FillColor = System.Drawing.Color.White;
             this.btnaddpeople.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnaddpeople.ForeColor = System.Drawing.Color.Black;
-            this.btnaddpeople.Location = new System.Drawing.Point(1452, 520);
+            this.btnaddpeople.Location = new System.Drawing.Point(1278, 511);
             this.btnaddpeople.Name = "btnaddpeople";
             this.btnaddpeople.Size = new System.Drawing.Size(235, 45);
             this.btnaddpeople.TabIndex = 26;
@@ -498,7 +498,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "uc_register";
-            this.Size = new System.Drawing.Size(1882, 852);
+            this.Size = new System.Drawing.Size(1516, 852);
             this.ResumeLayout(false);
             this.PerformLayout();
 
