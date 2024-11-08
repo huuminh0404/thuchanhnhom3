@@ -33,11 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Guna.UI2, Version=2.0.3.5, Culture=neutral, PublicKeyToken=4015e4865bda28a4, processorArchitecture=MSIL">
-      <HintPath>..\packages\Guna.UI2.WinForms.2.0.3.5\lib\net40\Guna.UI2.dll</HintPath>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -55,6 +58,18 @@
     <Compile Include="all user control\uc_addroom.Designer.cs">
       <DependentUpon>uc_addroom.cs</DependentUpon>
     </Compile>
+    <Compile Include="all user control\uc_picture.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="all user control\uc_picture.Designer.cs">
+      <DependentUpon>uc_picture.cs</DependentUpon>
+    </Compile>
+    <Compile Include="all user control\uc_register.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="all user control\uc_register.Designer.cs">
+      <DependentUpon>uc_register.cs</DependentUpon>
+    </Compile>
     <Compile Include="dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +86,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="all user control\uc_addroom.resx">
       <DependentUpon>uc_addroom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="all user control\uc_picture.resx">
+      <DependentUpon>uc_picture.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="all user control\uc_register.resx">
+      <DependentUpon>uc_register.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="dashboard.resx">
       <DependentUpon>dashboard.cs</DependentUpon>

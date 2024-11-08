@@ -52,9 +52,9 @@
             this.label1.Font = new System.Drawing.Font("Century", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(29, 34);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(226, 42);
+            this.label1.Size = new System.Drawing.Size(236, 42);
             this.label1.TabIndex = 0;
-            this.label1.Text = "thêm phòng";
+            this.label1.Text = "Thêm phòng";
             // 
             // flowLayoutPanel1
             // 
@@ -80,9 +80,9 @@
             this.label2.Font = new System.Drawing.Font("Century", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(1063, 55);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(102, 27);
+            this.label2.Size = new System.Drawing.Size(108, 27);
             this.label2.TabIndex = 3;
-            this.label2.Text = "số phòng";
+            this.label2.Text = "Số Phòng";
             // 
             // txtrnumber
             // 
@@ -97,6 +97,7 @@
             this.txtrnumber.ForeColor = System.Drawing.Color.Black;
             this.txtrnumber.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtrnumber.Location = new System.Drawing.Point(1068, 85);
+            this.txtrnumber.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtrnumber.Name = "txtrnumber";
             this.txtrnumber.PasswordChar = '\0';
             this.txtrnumber.PlaceholderText = "";
@@ -125,9 +126,9 @@
             this.label3.Font = new System.Drawing.Font("Century", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(1063, 171);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(117, 27);
+            this.label3.Size = new System.Drawing.Size(127, 27);
             this.label3.TabIndex = 5;
-            this.label3.Text = "loại phòng";
+            this.label3.Text = "Loại Phòng";
             // 
             // txttype
             // 
@@ -148,11 +149,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(1063, 305);
+            this.label4.Location = new System.Drawing.Point(1063, 286);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(123, 27);
+            this.label4.Size = new System.Drawing.Size(136, 27);
             this.label4.TabIndex = 7;
-            this.label4.Text = "loại giường";
+            this.label4.Text = "Loại Giường";
             // 
             // txtprice
             // 
@@ -166,7 +167,8 @@
             this.txtprice.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtprice.ForeColor = System.Drawing.Color.Black;
             this.txtprice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtprice.Location = new System.Drawing.Point(1068, 474);
+            this.txtprice.Location = new System.Drawing.Point(1068, 433);
+            this.txtprice.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.txtprice.Name = "txtprice";
             this.txtprice.PasswordChar = '\0';
             this.txtprice.PlaceholderText = "";
@@ -178,11 +180,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(1063, 436);
+            this.label5.Location = new System.Drawing.Point(1063, 400);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(43, 27);
+            this.label5.Size = new System.Drawing.Size(48, 27);
             this.label5.TabIndex = 9;
-            this.label5.Text = "giá";
+            this.label5.Text = "Giá";
             // 
             // txttypebed
             // 
@@ -194,7 +196,7 @@
             this.txttypebed.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txttypebed.ForeColor = System.Drawing.Color.Black;
             this.txttypebed.ItemHeight = 30;
-            this.txttypebed.Location = new System.Drawing.Point(1068, 367);
+            this.txttypebed.Location = new System.Drawing.Point(1068, 316);
             this.txttypebed.Name = "txttypebed";
             this.txttypebed.Size = new System.Drawing.Size(420, 36);
             this.txttypebed.TabIndex = 11;
@@ -217,7 +219,7 @@
             this.btnaddroom.Name = "btnaddroom";
             this.btnaddroom.Size = new System.Drawing.Size(180, 45);
             this.btnaddroom.TabIndex = 12;
-            this.btnaddroom.Text = "thêm phòng";
+            this.btnaddroom.Text = "Thêm Phòng";
             // 
             // guna2Elipse2
             // 
