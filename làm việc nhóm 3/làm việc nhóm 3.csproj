@@ -52,23 +52,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="all user control\UC_CustomerDetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="all user control\UC_CustomerDetails.Designer.cs">
+      <DependentUpon>UC_CustomerDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="all user control\uc_addroom.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="all user control\uc_addroom.Designer.cs">
       <DependentUpon>uc_addroom.cs</DependentUpon>
     </Compile>
-    <Compile Include="all user control\uc_picture.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="all user control\uc_picture.Designer.cs">
-      <DependentUpon>uc_picture.cs</DependentUpon>
-    </Compile>
-    <Compile Include="all user control\uc_register.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="all user control\uc_register.Designer.cs">
-      <DependentUpon>uc_register.cs</DependentUpon>
+    <Compile Include="all user control\UC_thanhtoan.cs" />
+    <Compile Include="all user control\UC_thanhtoan.Designer.cs">
+      <DependentUpon>UC_thanhtoan.cs</DependentUpon>
     </Compile>
     <Compile Include="dashboard.cs">
       <SubType>Form</SubType>
@@ -84,14 +82,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="all user control\UC_CustomerDetails.resx">
+      <DependentUpon>UC_CustomerDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="all user control\uc_addroom.resx">
       <DependentUpon>uc_addroom.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="all user control\uc_picture.resx">
-      <DependentUpon>uc_picture.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="all user control\uc_register.resx">
-      <DependentUpon>uc_register.cs</DependentUpon>
+    <EmbeddedResource Include="all user control\UC_thanhtoan.resx">
+      <DependentUpon>UC_thanhtoan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="dashboard.resx">
       <DependentUpon>dashboard.cs</DependentUpon>

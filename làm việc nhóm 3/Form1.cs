@@ -36,5 +36,10 @@ namespace làm_việc_nhóm_3
                 txtpassword.Clear();
             }
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -33,20 +33,17 @@
             this.btnexit = new Guna.UI2.WinForms.Guna2Button();
             this.btnminisize = new Guna.UI2.WinForms.Guna2Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btncheckout = new Guna.UI2.WinForms.Guna2Button();
-            this.btnhome = new Guna.UI2.WinForms.Guna2Button();
             this.btnstaff = new Guna.UI2.WinForms.Guna2Button();
-            this.btncd = new Guna.UI2.WinForms.Guna2Button();
+            this.btnCustomerDetial = new Guna.UI2.WinForms.Guna2Button();
+            this.btncheckout = new Guna.UI2.WinForms.Guna2Button();
             this.btncr = new Guna.UI2.WinForms.Guna2Button();
             this.btnaddroom = new Guna.UI2.WinForms.Guna2Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panelmoving = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.uC_CustomerDetails1 = new làm_việc_nhóm_3.all_user_control.UC_CustomerDetails();
+            this.uC_thanhtoan1 = new làm_việc_nhóm_3.all_user_control.UC_thanhtoan();
             this.uc_addroom1 = new làm_việc_nhóm_3.all_user_control.uc_addroom();
-            this.uc_register1 = new làm_việc_nhóm_3.all_user_control.uc_register();
-            this.uc_picture1 = new làm_việc_nhóm_3.all_user_control.uc_picture();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -62,9 +59,10 @@
             this.btnexit.ForeColor = System.Drawing.Color.White;
             this.btnexit.Image = ((System.Drawing.Image)(resources.GetObject("btnexit.Image")));
             this.btnexit.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnexit.Location = new System.Drawing.Point(0, -1);
+            this.btnexit.Location = new System.Drawing.Point(0, 0);
+            this.btnexit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnexit.Name = "btnexit";
-            this.btnexit.Size = new System.Drawing.Size(54, 56);
+            this.btnexit.Size = new System.Drawing.Size(57, 47);
             this.btnexit.TabIndex = 0;
             this.btnexit.Click += new System.EventHandler(this.btnexit_Click);
             // 
@@ -79,61 +77,25 @@
             this.btnminisize.ForeColor = System.Drawing.Color.White;
             this.btnminisize.Image = ((System.Drawing.Image)(resources.GetObject("btnminisize.Image")));
             this.btnminisize.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnminisize.Location = new System.Drawing.Point(0, 49);
+            this.btnminisize.Location = new System.Drawing.Point(0, 40);
+            this.btnminisize.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnminisize.Name = "btnminisize";
-            this.btnminisize.Size = new System.Drawing.Size(54, 55);
+            this.btnminisize.Size = new System.Drawing.Size(57, 47);
             this.btnminisize.TabIndex = 1;
             // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel1.Controls.Add(this.btncheckout);
-            this.panel1.Controls.Add(this.btnhome);
             this.panel1.Controls.Add(this.btnstaff);
-            this.panel1.Controls.Add(this.btncd);
+            this.panel1.Controls.Add(this.btnCustomerDetial);
+            this.panel1.Controls.Add(this.btncheckout);
             this.panel1.Controls.Add(this.btncr);
             this.panel1.Controls.Add(this.btnaddroom);
-            this.panel1.Location = new System.Drawing.Point(60, 12);
+            this.panel1.Location = new System.Drawing.Point(62, 10);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1845, 130);
+            this.panel1.Size = new System.Drawing.Size(1631, 105);
             this.panel1.TabIndex = 2;
-            // 
-            // btncheckout
-            // 
-            this.btncheckout.BorderRadius = 18;
-            this.btncheckout.BorderThickness = 1;
-            this.btncheckout.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btncheckout.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btncheckout.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btncheckout.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btncheckout.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btncheckout.FillColor = System.Drawing.Color.LightPink;
-            this.btncheckout.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.btncheckout.ForeColor = System.Drawing.Color.White;
-            this.btncheckout.Location = new System.Drawing.Point(8, 3);
-            this.btncheckout.Name = "btncheckout";
-            this.btncheckout.Size = new System.Drawing.Size(251, 120);
-            this.btncheckout.TabIndex = 2;
-            this.btncheckout.Text = "Trang Chủ";
-            this.btncheckout.Click += new System.EventHandler(this.btncheckout_Click);
-            // 
-            // btnhome
-            // 
-            this.btnhome.BorderRadius = 18;
-            this.btnhome.BorderThickness = 1;
-            this.btnhome.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btnhome.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnhome.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnhome.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnhome.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnhome.FillColor = System.Drawing.Color.LightPink;
-            this.btnhome.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.btnhome.ForeColor = System.Drawing.Color.White;
-            this.btnhome.Location = new System.Drawing.Point(960, 3);
-            this.btnhome.Name = "btnhome";
-            this.btnhome.Size = new System.Drawing.Size(257, 120);
-            this.btnhome.TabIndex = 5;
-            this.btnhome.Text = "Trang Chủ";
             // 
             // btnstaff
             // 
@@ -147,29 +109,52 @@
             this.btnstaff.FillColor = System.Drawing.Color.LightPink;
             this.btnstaff.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.btnstaff.ForeColor = System.Drawing.Color.White;
-            this.btnstaff.Location = new System.Drawing.Point(1579, 3);
+            this.btnstaff.Location = new System.Drawing.Point(1403, 5);
+            this.btnstaff.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnstaff.Name = "btnstaff";
-            this.btnstaff.Size = new System.Drawing.Size(254, 120);
+            this.btnstaff.Size = new System.Drawing.Size(226, 96);
             this.btnstaff.TabIndex = 4;
-            this.btnstaff.Text = "Nhân Viên";
+            this.btnstaff.Text = "nhân viên";
             // 
-            // btncd
+            // btnCustomerDetial
             // 
-            this.btncd.BorderRadius = 18;
-            this.btncd.BorderThickness = 1;
-            this.btncd.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.btncd.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btncd.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btncd.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btncd.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btncd.FillColor = System.Drawing.Color.LightPink;
-            this.btncd.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.btncd.ForeColor = System.Drawing.Color.White;
-            this.btncd.Location = new System.Drawing.Point(1250, 3);
-            this.btncd.Name = "btncd";
-            this.btncd.Size = new System.Drawing.Size(294, 120);
-            this.btncd.TabIndex = 3;
-            this.btncd.Text = "Chi Tiết Khách Hàng";
+            this.btnCustomerDetial.BorderRadius = 18;
+            this.btnCustomerDetial.BorderThickness = 1;
+            this.btnCustomerDetial.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnCustomerDetial.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCustomerDetial.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCustomerDetial.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCustomerDetial.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCustomerDetial.FillColor = System.Drawing.Color.LightPink;
+            this.btnCustomerDetial.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.btnCustomerDetial.ForeColor = System.Drawing.Color.White;
+            this.btnCustomerDetial.Location = new System.Drawing.Point(1075, 5);
+            this.btnCustomerDetial.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCustomerDetial.Name = "btnCustomerDetial";
+            this.btnCustomerDetial.Size = new System.Drawing.Size(232, 96);
+            this.btnCustomerDetial.TabIndex = 3;
+            this.btnCustomerDetial.Text = "chi tiết khách hàng";
+            this.btnCustomerDetial.Click += new System.EventHandler(this.btnCustomerDetial_Click);
+            // 
+            // btncheckout
+            // 
+            this.btncheckout.BorderRadius = 18;
+            this.btncheckout.BorderThickness = 1;
+            this.btncheckout.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btncheckout.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btncheckout.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btncheckout.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btncheckout.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btncheckout.FillColor = System.Drawing.Color.LightPink;
+            this.btncheckout.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.btncheckout.ForeColor = System.Drawing.Color.White;
+            this.btncheckout.Location = new System.Drawing.Point(698, 7);
+            this.btncheckout.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btncheckout.Name = "btncheckout";
+            this.btncheckout.Size = new System.Drawing.Size(264, 96);
+            this.btncheckout.TabIndex = 2;
+            this.btncheckout.Text = "thanh toán";
+            this.btncheckout.Click += new System.EventHandler(this.btncheckout_Click);
             // 
             // btncr
             // 
@@ -183,11 +168,12 @@
             this.btncr.FillColor = System.Drawing.Color.LightPink;
             this.btncr.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.btncr.ForeColor = System.Drawing.Color.White;
-            this.btncr.Location = new System.Drawing.Point(610, 3);
+            this.btncr.Location = new System.Drawing.Point(307, 7);
+            this.btncr.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btncr.Name = "btncr";
-            this.btncr.Size = new System.Drawing.Size(321, 120);
+            this.btncr.Size = new System.Drawing.Size(285, 96);
             this.btncr.TabIndex = 1;
-            this.btncr.Text = "Đăng Ký Khách Hàng";
+            this.btncr.Text = "đăng ký khách hàng ";
             this.btncr.Click += new System.EventHandler(this.btncr_Click);
             // 
             // btnaddroom
@@ -202,79 +188,77 @@
             this.btnaddroom.FillColor = System.Drawing.Color.LightPink;
             this.btnaddroom.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.btnaddroom.ForeColor = System.Drawing.Color.White;
-            this.btnaddroom.Location = new System.Drawing.Point(316, 3);
+            this.btnaddroom.Location = new System.Drawing.Point(3, 5);
+            this.btnaddroom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnaddroom.Name = "btnaddroom";
-            this.btnaddroom.Size = new System.Drawing.Size(246, 120);
+            this.btnaddroom.Size = new System.Drawing.Size(219, 96);
             this.btnaddroom.TabIndex = 0;
-            this.btnaddroom.Text = "Thêm Phòng";
+            this.btnaddroom.Text = "thêm phòng";
             this.btnaddroom.Click += new System.EventHandler(this.btnaddroom_Click);
             // 
             // panel2
             // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.uc_picture1);
-            this.panel2.Controls.Add(this.uc_register1);
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel2.Controls.Add(this.uC_CustomerDetails1);
+            this.panel2.Controls.Add(this.uC_thanhtoan1);
             this.panel2.Controls.Add(this.uc_addroom1);
-            this.panel2.Location = new System.Drawing.Point(199, 156);
+            this.panel2.Location = new System.Drawing.Point(20, 118);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1516, 852);
+            this.panel2.Size = new System.Drawing.Size(1673, 682);
             this.panel2.TabIndex = 3;
             // 
             // panelmoving
             // 
             this.panelmoving.BackColor = System.Drawing.Color.LightSlateGray;
-            this.panelmoving.Location = new System.Drawing.Point(70, 143);
+            this.panelmoving.Location = new System.Drawing.Point(62, 114);
+            this.panelmoving.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelmoving.Name = "panelmoving";
-            this.panelmoving.Size = new System.Drawing.Size(300, 7);
+            this.panelmoving.Size = new System.Drawing.Size(267, 6);
             this.panelmoving.TabIndex = 0;
             // 
             // guna2Elipse1
             // 
             this.guna2Elipse1.TargetControl = this;
             // 
-            // guna2Elipse2
+            // uC_CustomerDetails1
             // 
-            this.guna2Elipse2.TargetControl = this;
+            this.uC_CustomerDetails1.ForeColor = System.Drawing.Color.Black;
+            this.uC_CustomerDetails1.Location = new System.Drawing.Point(-2, 0);
+            this.uC_CustomerDetails1.Name = "uC_CustomerDetails1";
+            this.uC_CustomerDetails1.Size = new System.Drawing.Size(1882, 852);
+            this.uC_CustomerDetails1.TabIndex = 2;
             // 
-            // guna2Elipse3
+            // uC_thanhtoan1
             // 
-            this.guna2Elipse3.TargetControl = this;
+            this.uC_thanhtoan1.BackColor = System.Drawing.Color.LavenderBlush;
+            this.uC_thanhtoan1.Location = new System.Drawing.Point(-2, 0);
+            this.uC_thanhtoan1.Name = "uC_thanhtoan1";
+            this.uC_thanhtoan1.Size = new System.Drawing.Size(1682, 742);
+            this.uC_thanhtoan1.TabIndex = 1;
             // 
             // uc_addroom1
             // 
             this.uc_addroom1.BackColor = System.Drawing.Color.White;
-            this.uc_addroom1.Location = new System.Drawing.Point(-1, 3);
+            this.uc_addroom1.Location = new System.Drawing.Point(-2, -3);
+            this.uc_addroom1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.uc_addroom1.Name = "uc_addroom1";
-            this.uc_addroom1.Size = new System.Drawing.Size(1516, 852);
+            this.uc_addroom1.Size = new System.Drawing.Size(1673, 682);
             this.uc_addroom1.TabIndex = 0;
-            // 
-            // uc_register1
-            // 
-            this.uc_register1.BackColor = System.Drawing.Color.White;
-            this.uc_register1.Location = new System.Drawing.Point(-1, -1);
-            this.uc_register1.Name = "uc_register1";
-            this.uc_register1.Size = new System.Drawing.Size(1516, 852);
-            this.uc_register1.TabIndex = 1;
-            // 
-            // uc_picture1
-            // 
-            this.uc_picture1.Location = new System.Drawing.Point(-1, -1);
-            this.uc_picture1.Name = "uc_picture1";
-            this.uc_picture1.Size = new System.Drawing.Size(1516, 852);
-            this.uc_picture1.TabIndex = 2;
             // 
             // dashboard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightPink;
-            this.ClientSize = new System.Drawing.Size(1946, 1106);
+            this.ClientSize = new System.Drawing.Size(1726, 882);
             this.Controls.Add(this.panelmoving);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnminisize);
             this.Controls.Add(this.btnexit);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "dashboard";
@@ -294,16 +278,13 @@
         private System.Windows.Forms.Panel panel2;
         private Guna.UI2.WinForms.Guna2Button btnaddroom;
         private Guna.UI2.WinForms.Guna2Button btnstaff;
-        private Guna.UI2.WinForms.Guna2Button btncd;
+        private Guna.UI2.WinForms.Guna2Button btnCustomerDetial;
         private Guna.UI2.WinForms.Guna2Button btncheckout;
         private Guna.UI2.WinForms.Guna2Button btncr;
         private Guna.UI2.WinForms.Guna2Panel panelmoving;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
-        private Guna.UI2.WinForms.Guna2Button btnhome;
-        private all_user_control.uc_picture uc_picture1;
-        private all_user_control.uc_register uc_register1;
+        private all_user_control.UC_thanhtoan uC_thanhtoan1;
         private all_user_control.uc_addroom uc_addroom1;
+        private all_user_control.UC_CustomerDetails uC_CustomerDetails1;
     }
 }

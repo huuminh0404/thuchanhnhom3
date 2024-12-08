@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace làm_việc_nhóm_3.all_user_control
 {
-    public partial class uc_addroom : UserControl
+    public partial class UC_CustomerDetails : UserControl
     {
-        public uc_addroom()
+        public UC_CustomerDetails()
         {
             InitializeComponent();
         }
-
     }
 }
